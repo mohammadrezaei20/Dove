@@ -1,0 +1,106 @@
+.login-container {
+    /* background: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%); */
+    height: 100vh;
+    padding: 30px;
+}
+
+.login-box {
+    font-size: 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 25px 25px;
+    color: white;
+    margin: 20px 30px;
+
+}
+
+.login-img-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-img-container img {
+    width: 100vh;
+
+}
+
+.login-box {
+    background-color: dimgray;
+}
+
+
+form label {
+    display: block;
+}
+
+form .input-group input {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 5px 5px;
+    font-size: 1em;
+    width: 100%;
+    color: black;
+    
+}
+
+.input-group {
+    margin: 15px 0px;
+
+}
+
+
+
+
+.negin a {
+    text-decoration:none ;
+    color:aqua;
+    font-size: 1.3em
+}
+
+.do-you-have a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.login-box .social-auth {
+    display: flex;
+    margin: 40px 0px;
+    border-top: 1px solid;
+    justify-content: space-evenly;
+}
+
+.login-box .social-auth a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.login-box .social-auth a:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+.submit-btn-container input {
+    text-decoration: none;
+    border: none;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.submit-btn-container input:hover {
+    color: aqua;
+    text-decoration: underline;
+    width: 125px;
+}

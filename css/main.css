@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Dirooz;
+    src: url('Dirooz.eot');
+    src: url('Dirooz.eot?#iefix') format('embedded-opentype'),
+        url('Dirooz.woff') format('woff'),
+        url('Dirooz.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    font-family: Dirooz;
+    direction: rtl;
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+     margin:1px 1px; 
+}
+
